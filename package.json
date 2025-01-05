@@ -14,8 +14,9 @@
     "react-scripts": "^3.4.3"
   },
   "scripts": {
+    "ng": "set NODE_OPTIONS=--openssl-legacy-provider && ng",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "react-scripts build",
+    "build": "ng build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
