@@ -6,20 +6,6 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>
-        Powered by
-        <span> </span>
-        <b>
-          <a
-            rel="noopener noreferrer"
-            title="Powered by"
-            href="https://ipapi.co/"
-            target="_blank"
-          >
-            IPAPI
-          </a>
-        </b>
-      </p>
-      <p>
         {" "}
         Made with <span> </span>
         <AiFillHeart className="heart" />

@@ -88,7 +88,7 @@ const App = () => {
     setQuery(event.target.value.replace(/^\s+|\s+$/g, ""));
   };
 
-  return loading == true ? (
+  return loading === true ? (
     <MutatingDots {...loader.props} ariaLabel="loading" />
   ) : (
     <>
